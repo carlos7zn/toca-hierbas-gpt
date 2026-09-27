@@ -1,0 +1,10 @@
+{
+  "name": "toca-hierbas-discord-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Web estática para la comunidad de Discord Toca Hierbas, preparada para Vercel.",
+  "dependencies": {
+    "@vercel/blob": "^2.8.0"
+  }
+}
