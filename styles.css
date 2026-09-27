@@ -215,6 +215,7 @@ main { min-height: 65vh; }
 .empty-state p { max-width: 470px; margin: 0; color: var(--muted); font-size: 13px; }
 .notice { border: 1px solid rgba(203,191,113,.19); border-radius: 13px; padding: 13px 16px; color: #d5cea6; background: rgba(118,108,54,.1); font-size: 12px; line-height: 1.6; }
 .notice.error { border-color: rgba(225,129,115,.2); color: #f0aaa0; background: rgba(118,51,46,.12); }
+.admin-auth #admin-login-status:not(.error) { display: none; }
 
 .game-wrap { max-width: 770px; margin-inline: auto; }
 .game-card { overflow: hidden; border: 1px solid var(--line-strong); border-radius: 23px; background: rgba(19,26,20,.88); box-shadow: 0 25px 80px rgba(0,0,0,.22); }
